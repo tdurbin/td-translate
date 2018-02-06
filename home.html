@@ -34,17 +34,12 @@
 <body>
     <!-- Start of Container -->
     <div class="container">
-        <div class="row row-centered">
-            <div class="col-md-12 page-header">
-                <h1 translate="no">Translate Chat</h1>
-            </div>
-        </div>
         <!-- Visitor Chat Area -->
         <div class="row row-centered">
             <div class="col-md-4 col-centered"></div>
             <div class="col-md-4 col-centered">
                 <div translate="no">
-                    <h2>Visitor Chat</h2>
+                    <h2>Visitor Message</h2>
                 </div>
                 <div>
                     <textarea id="visitorChat" rows="5" class="commandInput" disabled></textarea>
@@ -60,11 +55,11 @@
             <div class="col-md-4 col-centered"></div>
             <div class="col-md-4 col-centered">
                 <div translate="no">
-                    <h2>Agent Chat</h2>
+                    <h2>Agent Response</h2>
                     <textarea id="agentChat" rows="5" class="commandInput"></textarea>
                     <br />
                     <br />
-                    <button type="button" class="btn btn-block btn-default" onclick="translateChat()">Translate</button>
+                    <button type="button" class="btn btn-block btn-default" onclick="translateChat()">Translate Message</button>
                 </div>
                 <div id="agentChatTranslated" style="display: none;"></div>
             </div>
